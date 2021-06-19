@@ -1,0 +1,23 @@
+#heading1 {
+ background-image: linear-gradient(to right, red, yellow);
+ color: rgba(0, 255, 255, 0.7)
+}
+
+#div1 {
+  border: black 3px double;
+  box-shadow: 0px 10px 15px blue;
+}
+
+#hover-heading {
+  color: black;
+  transition: 1s color, 3s border;
+}
+
+#hover-heading:hover {
+  color: greenyellow;
+  border: black 3px double;
+}
+
+#font-test {
+  font-family: 'Roboto', sans-serif;
+}

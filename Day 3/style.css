@@ -1,0 +1,21 @@
+#heading1 {
+  color: red;
+}
+header {
+  text-align: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer {
+  color: blue;
+  background-color: black;
+  text-align: center;
+}
+
+#image {
+				width: 500px;
+				height: auto;
+}

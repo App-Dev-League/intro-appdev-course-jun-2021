@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Counter</title>
+	</head>
+	<body>
+		<center>
+			<h1 id="counter">Counter: 0</h1>
+			<button onclick="subtract();">-</button>
+			<button onclick="reset();">Reset</button>
+			<button onclick="add();">+</button>
+		</center>
+
+		<script>
+			var counter = 0;
+			var counterElement = document.getElementById("counter");
+
+			function reset() {
+				counter = 0;
+				updateCounter();
+			}
+
+			function add() {
+				counter++;
+				updateCounter();
+			}
+
+			function subtract() {
+				counter--;
+				updateCounter();
+			}
+
+			function updateCounter() {
+				counterElement.innerHTML = "Counter: " + counter;
+			}
+		</script>
+	</body>
+</html>
