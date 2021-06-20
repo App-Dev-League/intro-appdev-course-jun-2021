@@ -1,23 +1,22 @@
-#heading1 {
- background-image: linear-gradient(to right, red, yellow);
- color: rgba(0, 255, 255, 0.7)
+#text{
+  color: blue;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
 }
 
-#div1 {
-  border: black 3px double;
-  box-shadow: 0px 10px 15px blue;
+.text-1{
+  color: green;
 }
 
-#hover-heading {
-  color: black;
-  transition: 1s color, 3s border;
+
+.color-text{
+  color: blue;
+  font-size: 10px;
+  transition: 1s color, 3s font-size;
 }
 
-#hover-heading:hover {
-  color: greenyellow;
-  border: black 3px double;
-}
-
-#font-test {
-  font-family: 'Roboto', sans-serif;
+.color-text:hover{
+  color: red;
+  font-size: 20px;
 }
